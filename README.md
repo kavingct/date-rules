@@ -60,7 +60,7 @@ $('#element').dateRules({
 ```
 
 ##### Supported methods
-`selected`
+###### `selected`
 This method displays only a provided array of dates in datepicker. For this method, in addition to rule tag, you should also specify a `selections` tag with an array of dates in option.
 ```javascript
 var dates = [];
@@ -74,7 +74,7 @@ $('#element').dateRules({
 ```
 Note that the `setHours(0,0,0,0)` will remove time values from date object before adding to array, as datepicker check will need dates without time.
 
-`noWeekEnd`
+###### `noWeekEnd`
 This method hides weekend days (Saturday and Sunday) in datepicker.
 ```javascript
 $('#element').dateRules({
@@ -82,7 +82,7 @@ $('#element').dateRules({
 });
 ```
 
-`onlyWeekEnd`
+###### `onlyWeekEnd`
 This method shows only weekend days (Saturday and Sunday) in datepicker.
 ```javascript
 $('#element').dateRules({
@@ -90,7 +90,7 @@ $('#element').dateRules({
 });
 ```
 
-`evenDays`
+###### `evenDays`
 This method shows only days with even number in datepicker.
 ```javascript
 $('#element').dateRules({
@@ -98,7 +98,7 @@ $('#element').dateRules({
 });
 ```
 
-`oddDays`
+###### `oddDays`
 This method shows only days with odd number in datepicker.
 ```javascript
 $('#element').dateRules({
@@ -106,7 +106,7 @@ $('#element').dateRules({
 });
 ```
 
-`evenMonths`
+###### `evenMonths`
 This method shows only dates in months with even number in datepicker.
 ```javascript
 $('#element').dateRules({
@@ -114,7 +114,7 @@ $('#element').dateRules({
 });
 ```
 
-`oddMonths`
+###### `oddMonths`
 This method shows only dates in months with odd number in datepicker.
 ```javascript
 $('#element').dateRules({
