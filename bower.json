@@ -1,0 +1,21 @@
+{
+  "name": "date-rules",
+  "main": "date-rules.js",
+  "version": "1.0.0",
+  "description": "Rule based dates for jquery ui datepicker.",
+  "keywords": [
+    "jquery",
+    "jquery-ui",
+    "datepicker"
+  ],
+  "authors": [
+    "Kavin Subramanian"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.genzis.com",
+  "ignore": [
+    "**/.*",
+    "LICENSE",
+    "README.md"
+  ]
+}
